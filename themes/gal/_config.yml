@@ -8,7 +8,7 @@ xs_bg_image: xsbg.gif
 
 # 必填, 个人头像, 如果是路径, 则指向source/imgs
 # 也可以填http:// OR https:// url地址
-author_image: avatar.jpg
+author_image: nw.png
 
 # 程序员模式, 适合于用该程序的爱好写技术文章的人员, 默认不开启
 # 选择开启后将会改变article-excerpt, article-content等的显示
@@ -115,7 +115,7 @@ slide_background:
 
   # use_url: false情况下, 采用本地博客图片路径, 下面三个参数组合指向: source/imgs/slide/background(1~6).jpg
   prefix: slide/background
-  ext: jpg
+  ext: png
   max_count: 6
 
 
