@@ -7,8 +7,8 @@ npm install hexo-renderer-sass --save
 npm install hexo-renderer-scss --save
 拥有此插件时hexo才能将scss文件转成目标css文件
 
-# 更新关于部署到github之后css无法正常显示的问题
-首先运行hexo g生成本地文件，并在hexo s中测试成功的情况下再将theme中的css文件全部覆盖到public的css中，再使用hexo d部署，此bug会在后期更新中修复
+# 更新 2022/4/14
+关于部署到github之后css无法正常显示的问题首先运行hexo g生成本地文件，并在hexo s中测试成功的情况下再将theme中的css文件全部覆盖到public的css中，再使用hexo d部署，此bug会在后期更新中修复
 
 
 
