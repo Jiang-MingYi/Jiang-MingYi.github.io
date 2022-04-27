@@ -783,6 +783,8 @@
 </div>
 
 <!-- 加上这段代码原因： gitment在首页加载时, 如果找不到对应的控件会报错，此处加上，同时设置为none，防止报错 -->   
+  
+    <div id="comments-template" style="display:none"></div> 
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
@@ -943,15 +945,15 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/%E8%89%B9%E7%8C%AB/" style="font-size: 17.48274821970866px;" class="tag-cloud-link">艹猫</a>
+    <a href="/tags/%E8%89%B9%E7%8C%AB/" style="font-size: 13.496001073519228px;" class="tag-cloud-link">艹猫</a>
     
-    <a href="/tags/key/" style="font-size: 12.004904843970754px;" class="tag-cloud-link">key</a>
+    <a href="/tags/key/" style="font-size: 13.878658529270936px;" class="tag-cloud-link">key</a>
     
-    <a href="/tags/%E8%90%9D%E8%8E%89/" style="font-size: 12.907741499459142px;" class="tag-cloud-link">萝莉</a>
+    <a href="/tags/%E8%90%9D%E8%8E%89/" style="font-size: 9.51263020973741px;" class="tag-cloud-link">萝莉</a>
     
-    <a href="/tags/cabbage-soft/" style="font-size: 18.78406647482948px;" class="tag-cloud-link">cabbage-soft</a>
+    <a href="/tags/cabbage-soft/" style="font-size: 10.086354414112275px;" class="tag-cloud-link">cabbage-soft</a>
     
-    <a href="/tags/%E7%8C%AB%E8%80%B3%E8%90%9D%E8%8E%89/" style="font-size: 18.55644860605314px;" class="tag-cloud-link">猫耳萝莉</a>
+    <a href="/tags/%E7%8C%AB%E8%80%B3%E8%90%9D%E8%8E%89/" style="font-size: 13.885667003425755px;" class="tag-cloud-link">猫耳萝莉</a>
     
 </div>
                 
@@ -1055,6 +1057,30 @@
 <script src="/js/blog.js"></script>
 
 
+
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = ''
+      window.commentConfig.owner = 'akaimoe'
+      window.commentConfig.repo = 'Akai'
+      window.commentConfig.client_id = 'fc7ccc88ed5da8af2946'
+      window.commentConfig.client_secret = '9d23e30e2ff793cc8d7ca937309a8c5984b87468'
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: '',
+        owner: 'akaimoe',
+        repo: 'Akai',
+        client_id: 'fc7ccc88ed5da8af2946',
+        client_secret: '9d23e30e2ff793cc8d7ca937309a8c5984b87468',
+        redirect_uri: ''
+      }
+    }
+</script>
+
+<script src="/js/comment/gitment.js"></script>
 
 
 </html>
